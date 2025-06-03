@@ -89,7 +89,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📄 License
 
-MIT License - see [LICENSE](LICENSE) for details.
+BSD Zero Clause License - see [LICENSE](LICENSE) for details.
 
 ## 👤 Author
 
