@@ -2,7 +2,7 @@ import { NavLink } from "react-router";
 import { siteConfig } from "@/config/site.config";
 import ThemeToggler from "@/components/theme/toggler";
 import { Button } from "@/components/ui/button";
-import { GithubIcon } from "lucide-react";
+import { GithubIcon, ArrowRightIcon } from "lucide-react";
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -98,9 +98,7 @@ export function Home() {
               <NavLink to="/docs">
                 <span className="flex items-center gap-2">
                   Get Started
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                  </svg>
+                  <ArrowRightIcon className="size-5" />
                 </span>
               </NavLink>
             </Button>
